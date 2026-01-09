@@ -87,6 +87,18 @@
                         console.log("CF: 评测结束但未 AC，停止刷新。");
                     }
                 }
+                else {
+                    const isAccepted = statusCell.querySelector('.verdict-accepted') !== null;
+                    if (isAccepted) {
+                        if (submissionID !== lastPlayedID) {
+                            sessionStorage.setItem('cf_last_played_id', submissionID);
+                            playACSound();
+                            console.log("CF: 恭喜 AC! ID:", submissionID);
+                        }
+                    } else {
+                        console.log("CF: 评测结束但未 AC，停止刷新。");
+                    }
+                }
             }
         }
     }
