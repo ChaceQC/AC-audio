@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  监控 QOJ 中属于自己的第一条提交记录，若是显示 AC 则播放音效。
-// @author       Gemini & Chace
+// @author       Chace
 // @match        *://qoj.ac/*
 // @grant        GM_setValue
 // @grant        GM_getValue
