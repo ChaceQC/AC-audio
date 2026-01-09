@@ -4,6 +4,7 @@
 # 已支持网站
 1. [洛谷](https://www.luogu.com.cn/)；
 2. [牛客](https://ac.nowcoder.com/)；
+3. [QOJ](https://qoj.ac/)；
 
 # 使用方法
 
