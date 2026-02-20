@@ -11,3 +11,6 @@
 
 1. 添加油猴插件；
 2. 导入对应网站的js插件；
+
+## Star 历史
+[![Stargazers over time](https://starchart.cc/ChaceQC/AC-audio.svg?variant=adaptive)](https://starchart.cc/ChaceQC/AC-audio)
